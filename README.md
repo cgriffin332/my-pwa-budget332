@@ -20,7 +20,23 @@ All you need to do is click the link.
 
 ## Usage
 
-When the user opens the app, they are displayed with their current budget.  They are able to add transactions and click either Add or Subtract Funds.  The user can also use this app without an internet connection.  Any transactions made online will be saved in pending IndexedDB.  Once the user is back online, when they reload the page twice, those transactions will be added to the MongoDB Atlas DB.
+When the user opens the app, they are presented with their current budget.  
+![Image of Start](./public/images/budget1.png)
+
+They are able to add transactions by entering values and clicking either Add or Subtract Funds.  
+![Image of Add/Subtract](./public/images/budget2.png)
+
+The user can also use this app without an internet connection.  Any transactions made online will be saved in pending IndexedDB. 
+![Image of Pending](./public/images/budget3.png)
+
+The new information has not yet been added to the database.
+![Image of Atlas](./public/images/budget4.png)
+
+Once the user is back online, when they reload the page twice, those transactions will be added to the MongoDB Atlas DB.  The pending entries are now gone.
+![Image of Pending](./public/images/budget5.png)
+
+The new values have now been added to the database.
+![Image of Atlas](./public/images/budget6.png)
 
 ## License
 
